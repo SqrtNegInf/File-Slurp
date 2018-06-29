@@ -1,12 +1,12 @@
 File::Slurp.pm
-===========================
+--------------
 
 This module provides subroutines to read or write entire files with a
 simple call.  It also has a subroutine for reading the list of filenames
 in a directory.
 
-In the extras/ directory you can read an article (slurp_article.pod)
-about file slurping and also run a benchmark (slurp_bench.pl) that
+In the ```extras``` directory you can read an article (slurp_article.pod)
+about file slurping and also run a benchmark (slurp_bench.pod) that
 compares many ways of slurping/spewing files. This benchmark was
 rewritten for .14 and is much better.
 
@@ -22,15 +22,20 @@ make it have a version number higher than the old one, so I chose the
 9999 prefix and appended the real revision number to it.
 
 INSTALLATION
+------------
 
 To install this module type the following:
 
-   perl Makefile.PL
-   make
-   make test
-   make install
+
+```shell
+perl Makefile.PL
+make
+make test
+make install
+```
 
 COPYRIGHT AND LICENCE
+---------------------
 
 Copyright (C) 2010 Uri Guttman <uri@PerlHunter.com>
 
